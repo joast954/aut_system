@@ -3,8 +3,7 @@ aut_system
 
 Example of gem Devise authentication system used for a Rails 4 applications.
 
-Devise setup:
-------------
+##Devise setup
 Add "gem 'devise'" to gemfile.
 
 Run the following commands:
@@ -13,6 +12,5 @@ rails generate devise:install
 rails generate devise User
 rake db:migrate
 
-Create default User from db/seeds:
-------------------------------
+##Create default User from db/seeds:
 rake db:seed
