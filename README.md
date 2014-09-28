@@ -1,7 +1,7 @@
 aut_system
 ==========
 
-Example of gem Devise authentication system used for a Rails 4 applications.
+Example of gem Devise authentication system used for a Rails 4 application.
 
 ####Devise setup
 Add "gem 'devise'" to gemfile.
