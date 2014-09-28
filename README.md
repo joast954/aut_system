@@ -13,4 +13,4 @@ Run the following commands:
 4. rake db:migrate  
 
 ####Create default User from db/seeds
-5. rake db:seed
+rake db:seed
