@@ -1,20 +1,18 @@
 aut_system
 ==========
 
-Authentication system for Rails 4 applications
+Example of gem Devise authentication system used for a Rails 4 applications.
 
+Devise setup:
+------------
+Add "gem 'devise'" to gemfile.
+
+Run the following commands:
 bundle install
-
 rails generate devise:install
-
 rails generate devise User
-
 rake db:migrate
 
-rails c
-->
-User.create!({email: "example@email.com", :password => "12345678"})
-
-OR
-
+Create default User from db/seeds:
+------------------------------
 rake db:seed
